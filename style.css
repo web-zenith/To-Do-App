@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+    padding: 0;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background: #e0e0e0;
+}
+
+button{
+    cursor: pointer;
+}
+
+.inputer{
+    padding: 20px;
+    width: fit-content;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: #000;
+}
+
+.inputer input{
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    transition: .3s;
+}
+
+.inputer button{
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    transition: .3s;
+}
+
+.inputer input:focus{
+    border: 1px solid #e0e0e0;
+    outline: none;
+    text-align: center;
+}
+
+.added_works{
+    height: fit-content;
+    padding: 20px;
+    background: #000;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.work{
+    border-radius: 5px;
+    display: block;
+    height: 70px;
+    width: 90%;
+    background: white;
+    text-align: left;
+    margin: 20px;
+}
+.work *{display: inline-block}
+
+.work .workname{
+    margin: 25px;
+    font-weight: bold;
+}
+
+
+.work .actions{
+    float: right;
+    margin:20px;
+}
+
+.work .actions button{
+    padding: 5px;
+    border: 0;
+    margin: 5px;
+    background: #000;
+}
+.work .actions .done{color: #31db3ae5;}
+.work .actions .done.true{background: #31db3ae5; color: black;}
+.work .actions .remove{background: #db3131e5;}
